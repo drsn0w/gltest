@@ -10,5 +10,6 @@ pkg_check_modules(GL REQUIRED IMPORTED_TARGET gl)
 
 add_subdirectory(src)
 
-configure_file(testshader.fs ${CMAKE_BINARY_DIR}/src/testshader.fs)
-configure_file(testshader.vs ${CMAKE_BINARY_DIR}/src/testshader.vs)
+configure_file(orange.shader ${CMAKE_BINARY_DIR}/src/orange.shader)
+configure_file(triangle_vertex.shader ${CMAKE_BINARY_DIR}/src/triangle_vertex.shader)
+configure_file(green.shader ${CMAKE_BINARY_DIR}/src/green.shader)
