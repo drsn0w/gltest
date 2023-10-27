@@ -44,8 +44,8 @@ int main() {
     // Set keyboard callback
     glfwSetKeyCallback(window, input_callback);
 
-    Shader orange_shader("triangle_vertex.shader", "orange.shader");
-    Shader green_shader("triangle_vertex.shader", "green.shader");
+    Shader orange_shader("triangle_vertex.glsl", "orange.glsl");
+    Shader green_shader("triangle_vertex.glsl", "green.glsl");
 
     float orange_verticies [] = {
         -1.0f, -1.0f, 0.0f,
